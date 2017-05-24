@@ -1,0 +1,469 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS for the site*/
+
+
+header nav ul{
+  background:white;
+  top:0;
+  position:absolute;
+  padding:0px;
+  margin:0px;
+	height:50px;
+}
+header nav ul li{
+  display:inline-block;
+	position: relative;
+}
+
+.l-nav{
+	padding-left: 38px;
+  width:13%;
+  left:0px;
+}
+.r-nav{
+  padding-right: 15px;
+  width:20%;
+  right:0px;
+  text-align:right;
+}
+
+.m-nav{
+  width:67%;
+  left:187.45px;
+	padding:0;
+}
+
+#drop-down{
+	width:18px;
+	height:18px;
+	margin-bottom: 13px;
+}
+
+#youtube-logo{
+	margin: 10px 0px 10px 12px;
+	width:73px;
+	height:30px;
+
+}
+
+.m-nav img{
+	width:70px;
+	height:30px;
+	padding: 7px 27px;
+	margin-top:10px;
+	margin-bottom: -10px;
+	margin-left:-6px;
+	border:1px solid #cccccc;
+	background: #eee;
+}
+
+.m-nav input{
+	width:580px;
+	height:30px;
+	margin-left: 43px;
+	border:1px solid #cccccc;
+}
+
+
+
+#profile{
+	width:26px;
+	height:26px;
+	margin-right: 28px;
+	margin-top:12px;
+	border-radius:30px;
+}
+
+#notification{
+	width:17px;
+	height:17px;
+	margin-bottom:4px;
+	margin-right:14px;
+}
+
+#upload{
+	width:13.9px;
+	height:19.2px;
+	margin-bottom:3px;
+	margin-right: 42px;
+}
+
+body{
+	background-color: #eee;
+	width: 100%;
+	position: absolute;
+	font-family:sans-serif;
+}
+
+#up-next{
+	background-color: white;
+	width: 29.5%;
+	height:1800px;
+	float: right;
+	margin: 60px 78px 10px 3px;
+}
+
+#main-content{
+	width: 59%;
+	height:2800px;
+	float: left;
+	margin: 60px 3px 10px 77px;
+}
+
+#side-control{
+	background-color: white;
+	width: 94%;
+	height:40px;
+	margin: 0px 14px;
+}
+
+#side-text{
+	margin: 10px 5px 0 5px;
+	font-size: 13px;
+	color:#222;
+	line-height:1.3em;
+	width:290px;
+	font-weight: bold;
+	vertical-align:middle;
+}
+
+#next-videos{
+	background-color: white;
+	width: 94%;
+	height:1600px;
+	margin: 5px 15px 10px;
+}
+
+#main-vedio{
+	width: 100%;
+	height: 500px;
+	margin: 0 0 10px;
+}
+
+#video-info{
+	background-color: white;
+	width: 100%;
+	height:165px;
+	margin: 10px 0;
+}
+
+#title{
+	width: 75%;
+	font-size: 20px;
+	padding:15px 0 0 13px;
+}
+
+#comedy-logo{
+	width:50px;
+	height:50px;
+	margin:10px 0 -8px 13px;
+	display:inline-block;
+}
+
+#comedy-info{
+	display:inline-block;
+}
+
+#comedy-info p{
+	font-size: 12px;
+	font-weight: 600;
+	margin:15px 0 -8px 5px;
+}
+
+#comedy-info img{
+	width:110px;
+	height:28px;
+	margin: 0 0 -10px 0px;
+}
+
+#comedy-info button{
+	width:45px;
+	height:25px;
+	margin: -10px 0 -1px -13px;
+	border-radius:2px;
+	background: #fcfcfc;
+	border:1px solid #f1f1f1;
+	font-size: 12px;
+	font-weight: 300;
+	color:#777;
+}
+
+#video-info hr{
+	margin:10px;
+}
+
+#share-bar div{
+	display:inline-block;
+	color:#777;
+	font-size:11px;
+	padding:0;
+	margin:2px 6px 0 4px;
+}
+
+#share-bar div li{
+	display:inline-block;
+}
+
+#share-bar div li img{
+	width:28px;
+	height:28px;
+	margin: -10px 8px -10px 2px;
+}
+
+#share-bar div li p{
+	margin: -15px 0 -15px -6px;
+}
+
+.thumb{
+	float:right;
+}
+
+
+
+#publish-info{
+	background-color: white;
+	width: 100%;
+	height:120px;
+	margin: 10px 0;
+	padding: 15px 0 0 13px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+#publish-info h6{
+	margin-bottom:4px;
+	font-weight:500;
+}
+
+#show-more{
+	text-align: center;
+	font-size:11px;
+	color:#777;
+	margin-top:-11px;
+}
+
+#comment-section{
+	background-color: white;
+	width: 100%;
+	height:1730px;
+	margin: 10px 0;
+}
+
+
+
+#add-comments h1{
+	font-size: 13px;
+	font-weight: 500;
+	padding: 15px 0 0 13px;
+}
+
+#add-comments img{
+	width:50px;
+	height:50px;
+	display:inline-block;
+	margin:20px 0 -20px 13px;
+}
+
+#add-comments input{
+	width:755px;
+	height:50px;
+	margin: 0 0 0px 16px;
+}
+
+#add-comments button {
+    background-color: #fbfbfb;
+    border: 1px solid #ddd;
+    padding: 7px 16px;
+		margin-left: 13px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+		font-weight: 500;
+}
+
+.main-comment img{
+	width:45px;
+	height:45px;
+	display: inline-block;
+	margin: 20px 0 0 13px;
+}
+
+.comment-text{
+	display: inline-block;
+	width:70%;
+}
+
+.main-comment a{
+	margin: 20px 0 20px 3px;
+	font-size:14px;
+	display: inline-block;
+	color:#09f;
+}
+
+.main-comment h6{
+	margin: 20px 0 20px 3px;
+	font-size:11px;
+	display: inline-block;
+	color:#999;
+}
+
+.main-comment p{
+	font-size:13px;
+	margin-top:-12px;
+	margin-left:3px;
+}
+
+.main-likes{
+	padding-left: 67px;
+}
+.main-likes li{
+	display: inline-block;
+
+}
+
+.reply{
+	color:#999;
+	font-size: 13px;
+	font-weight: 300;
+	margin: 0 0 10px 0;
+	display: inline-block;
+}
+
+.reply-num{
+	color:#09f;
+	font-size: 13px;
+	font-weight: 300;
+	display: inline-block;
+}
+
+.comment-thumb{
+	width:43px;
+	height:22px;
+	margin: 10px 0 -5px 12px;
+}
+
+.comment h3{
+	font-size:13px;
+	color:#09f;
+	margin-left:67px;
+	margin-bottom: -5px;
+}
+
+.sub-comment{
+	margin-left:67px;
+}
+
+.sub-comment img{
+	display: inline-block;
+}
+
+.sub-comment a{
+	margin: 20px 0 20px 3px;
+	font-size:14px;
+	color:#09f;
+	display: inline-block;
+}
+
+.sub-comment h6{
+	margin: 20px 0 20px 3px;
+	font-size:11px;
+	display: inline-block;
+	color:#999;
+}
+
+.sub-comment p{
+	font-size:13px;
+	margin-top:-12px;
+	margin-left:3px;
+}
+
+.sub-likes{
+	margin-left: 38px;
+	margin-top:-5px;
+}
+
+#comment-section button{
+	width:780px;
+	height:35px;
+	background: #fafafa;
+	margin: 25px 0 0 43px;
+	border: 1px solid #e8e8e8;
+	font-size:13px;
+	font-weight: 500;
+}
+.side-wrap{
+	width:100%;
+	height:100px;
+}
+
+.side-vedio{
+	width: 44%;
+	height:100px;
+	display: inline-block;
+}
+
+.side-info{
+	width:53.5%;
+	height:100px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.video-title{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+.video-description{
+	font-size: 11px;
+	margin-top:3px;
+}
